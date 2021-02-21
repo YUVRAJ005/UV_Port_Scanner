@@ -70,7 +70,6 @@ def port_scanner(ip, port, output, banner, service):
     except:
         output[port] = ''
 
-
 # Getting Banners if there
 def get_banner(sock):
     return str(sock.recv(1024).decode().strip('\n'))
@@ -109,17 +108,17 @@ def threads_handler(ip , portRange):
 
     print('[+] -> Initiating Scan at {} for Target {}'.format(startTime.strftime("%H:%M:%S"), ip))
     print('[+] -> Scanning Target {} '.format(ip))
-    
+        
     start = int(portRange[0])
     end = int(portRange[1])
- 
+    
     while  (start+500 < end):
         ports = []
         ports.append(str(start))
         ports.append(str(start + 500))
-        start += 301
+        start += 501
         start_threads(ip, ports) 
-    
+        
     ports = []
     ports.append(str(start))
     ports.append(str(end - start))
@@ -157,7 +156,8 @@ try:
         print()
     time.sleep(10)
     print('\n[-]Exiting Program...')
-    time.sleep(5)
+    time.sleep(3)
+    sys.exit()
 
 except KeyboardInterrupt:
     print('\n[-]Exiting Program...')
