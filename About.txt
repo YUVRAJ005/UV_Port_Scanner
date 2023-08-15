@@ -1,6 +1,6 @@
 #@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#
 UV Port Scanner
-Designed and Developed by - Abhishek P. Iche [API]
+By - Abhishek P. Iche [API]
 #@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#
 
 Python Modules Used - 
