@@ -1,6 +1,5 @@
 # UVPortScanner
 UV Port Scanner 
-Designed and Developed by - Abhishek P. Iche [API]
 
 UV Port Scanner is a high speed port scanner providing easy to use command line interface (CLI).
 
