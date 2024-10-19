@@ -26,8 +26,4 @@ If the user do not enter any port range, default port range will be considered a
 
 Banners assigned to each Port.
 
-****************************************************************
 
-! Use UV Port Scanner for Educational Purpose Only !
-
-****************************************************************
