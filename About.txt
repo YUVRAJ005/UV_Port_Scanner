@@ -1,6 +1,5 @@
 #@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#
 UV Port Scanner
-By - Abhishek P. Iche [API]
 #@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#
 
 Python Modules Used - 
